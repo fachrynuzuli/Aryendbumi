@@ -1,0 +1,315 @@
+{
+  "main": {
+    "id": "b8ba53a35acfb162",
+    "type": "split",
+    "children": [
+      {
+        "id": "0237db811947a87f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ec5541f36bc4435",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7b0cc8f7c45b1e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "609ee7476fc2d4cc",
+        "type": "tabs",
+        "dimension": 66.75031367628608,
+        "children": [
+          {
+            "id": "a7637c7e21808ba1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1c3183ee9c7d256f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b0c939514b6a5ea3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:0🌲",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0509d6f0d0bce209",
+        "type": "tabs",
+        "dimension": 33.249686323713924,
+        "children": [
+          {
+            "id": "eac1017f243c61b9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7733297491023303,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f8bab04dda2369df",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5
+  },
+  "right": {
+    "id": "d0426a3b1987015f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4db4e3d137dd338f",
+        "type": "tabs",
+        "dimension": 60.457142857142856,
+        "children": [
+          {
+            "id": "d12e7491714f8179",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d48a261d5e2d0a5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Beginners Seeks Guidance.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Beginners Seeks Guidance"
+            }
+          },
+          {
+            "id": "a2e8a06098e45338",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Karier Terancam Stuck, Ini Cara Gue Agar Tetap Survive – Fachry Nuzuli.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Karier Terancam Stuck, Ini Cara Gue Agar Tetap Survive – Fachry Nuzuli"
+            }
+          },
+          {
+            "id": "1b2e642bcbba711f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6af80fc77229da7a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fd2e2140eb2933b4",
+        "type": "tabs",
+        "dimension": 39.54285714285714,
+        "children": [
+          {
+            "id": "66a03e8e77074e35",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "99d004cbcddefc78",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0ec5541f36bc4435",
+  "lastOpenFiles": [
+    "You Must Suffer.md",
+    "Ingest/You Must Suffer.md",
+    "you've come a long way.md",
+    "Zillenials Generasi Paling Sial.md",
+    "Ingest/Zillenials — Generasi Paling Sial.md",
+    "Ingest/you've come a long way.md",
+    "Bersiap-siap membuatmu makin tidak siap.md",
+    "Ingest/Bersiap-siap membuatmu semakin tidak siap.md",
+    "Ingest/6 path of ai persona.md",
+    "business profile.md",
+    "Books.md",
+    "Board games.md",
+    "Beginners Seeks Guidance.md",
+    "Apps.md",
+    "Albums.md",
+    "ai education encyclopedia.md",
+    "ai maximalist.md",
+    "Six Paths of AI Persona.md",
+    "References/Break Down Goals Into Actionable Plan Prompt.md",
+    "Prompts/Break Down Goals Into Actionable Plan.md",
+    "Content from Break Down Goals Into Actionable Plan.md",
+    "Trips.md",
+    "References/CV Analyzer Prompt.md",
+    "References/YouTube Newsletter or Article Draft Prompt.md",
+    "References/YouTube To Actionable Steps Prompt.md",
+    "References/Voice and Style Generator Prompt.md",
+    "Untitled.base",
+    "Prompts",
+    "Profiles/Prompts",
+    "untitled folder.textClipping",
+    "Profiles/untitled folder",
+    "Profiles",
+    "untitled folder",
+    "Ingest",
+    "Untitled",
+    "References/Archive",
+    "Attachments/out-of-control.jpg",
+    "_meta/Attachments/daily-note-example.png",
+    "_meta/Attachments/zettel examples.png",
+    "_meta/Attachments/zettelkasten.png",
+    "_meta/Attachments/eod-log-example.png",
+    "_meta/Attachments/dn-logbook-example.png",
+    "_meta/Attachments/digital_garden.png",
+    "_meta/Attachments/deep-work.png",
+    "_meta/Attachments/open-daily-note-on-startup.png",
+    "_meta/Attachments/template selection.png",
+    "Untitled.canvas"
+  ]
+}

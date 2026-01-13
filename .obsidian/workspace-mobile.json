@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "9afa6dbf8a2f61ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7a8b94cc6f23383",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af7802e6efa5bde5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f63842f9f8ea4b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 Reflections/11 Daily Notes/2024-02-05.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d90e425aab0f486",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cb6ff393b22f8e77",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "fe22b4f0f650f935",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f92bffb79cefc6bd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "ad21ebcabcef6d9d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "17dfaa65b888b644",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "ebfc285cecc6730e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e6ad1437c2f83847",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d75308682619ffce",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "10 Reflections/11 Daily Notes/2024-02-05.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5ff3849a65aa1763",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "10 Reflections/11 Daily Notes/2024-02-05.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "07c6bd9b6848a8dd",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "10 Reflections/11 Daily Notes/2024-02-05.md"
+          }
+        }
+      },
+      {
+        "id": "2ec2f7f93bdcc3b7",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "9105875fd491a57d",
+        "type": "leaf",
+        "state": {
+          "type": "podcast_player_view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templates:Insert template": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-omnivore:Omnivore": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "f63842f9f8ea4b66",
+  "lastOpenFiles": [
+    "10 Reflections/11 Daily Notes/2024-02-04.md",
+    "10 Reflections/11 Daily Notes/2024-02-05.md",
+    "30 Archive/32 Main Notes/4.1 Second brain.md",
+    "30 Archive/31 Index/§ Personal Knowledge Management.md",
+    "30 Archive/32 Main Notes/4.2 Difference between second brain and zettelkasten.md",
+    "10 Reflections/12 Weekly Notes/2024-W19.md",
+    "40 Tools/@ Home.md",
+    "20 Efforts/24 On Hold/⌘ Homelab.md",
+    "40 Tools/42 Cheat Sheets/Email subject lines cheat sheet.md",
+    "30 Archive/32 Main Notes/8.1 Richard Feynman.md",
+    "30 Archive/32 Main Notes/4.3 Utilizing efforts oriented systems for creative outputs.md",
+    "30 Archive/32 Main Notes/3.3 Personal knowledge management defined.md",
+    "30 Archive/32 Main Notes/3.2c Time based note organization.md",
+    "30 Archive/32 Main Notes/3.2a Location based note organization.md",
+    "30 Archive/32 Main Notes/2.2 Information overload distracts us from deep work.md",
+    "30 Archive/32 Main Notes/2.1 Information defined.md",
+    "30 Archive/31 Index/§ 0 Master Index.md",
+    "30 Archive/31 Index/§ Information Theory.md",
+    "30 Archive/31 Index/§ People.md",
+    "30 Archive/31 Index/§ Zettelkasten.md",
+    "30 Archive/31 Index/§ Working Memory.md",
+    "10 Reflections/13 Goals/@ Goals Hub.md",
+    "10 Reflections/14 Logs/Journal Index.md",
+    "40 Tools/45 Vault Docs/CREATE folder framework.md",
+    "00 Captures/@ Inbox.md",
+    "40 Tools/42 Cheat Sheets/Custom Callouts.md",
+    "40 Tools/Attachments/Pasted image 20231228165130.png",
+    "todoist-backup-202419132526.json",
+    "40 Tools/Attachments/deep-work.png",
+    "40 Tools/Attachments/zettelkasten-workflow.png",
+    "40 Tools/Attachments/Pasted image 20231228085452.png",
+    "40 Tools/Attachments/graph-node.png",
+    "40 Tools/Attachments/interstitial-journaling-example.png",
+    "40 Tools/Attachments/compass_thinking.png",
+    "40 Tools/Attachments/open-daily-note-on-startup.png",
+    "40 Tools/Attachments/ATTN_08_12_MindMapping.pdf",
+    "40 Tools/Attachments/zettelkasten.png",
+    "40 Tools/Attachments/Pasted image 20231220095354.png",
+    "40 Tools/Views",
+    "Notes"
+  ]
+}

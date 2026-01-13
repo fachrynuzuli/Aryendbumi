@@ -1,0 +1,22 @@
+filters:
+  and:
+    - categories.contains(link("Prompts"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Prompt
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - maker
+      - area
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: area
+        direction: DESC
+    columnSize:
+      file.name: 224
+      note.maker: 203

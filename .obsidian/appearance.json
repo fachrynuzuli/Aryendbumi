@@ -1,0 +1,23 @@
+{
+  "accentColor": "#1d488c",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "translucency": false,
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "MCL Wide Views",
+    "priority-matrix",
+    "cards",
+    "dashboard",
+    "table-border"
+  ],
+  "showViewHeader": true,
+  "textFontFamily": "Inter,Geist,JetBrains Mono",
+  "interfaceFontFamily": "Geist,Inter,Geist Mono",
+  "monospaceFontFamily": "Geist Mono,Fira Code",
+  "baseFontSizeAction": false,
+  "nativeMenus": true,
+  "showRibbon": true
+}
