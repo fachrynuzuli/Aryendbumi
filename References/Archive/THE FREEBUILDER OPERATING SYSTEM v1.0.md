@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # **THE FREEBUILDER OPERATING SYSTEM v1.0**
 
 ## **Your Single Source of Truth for 30 Days of Execution**

@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # Profilemu AI - Product Requirements Document
 
 ## Executive Summary

@@ -1,15 +1,6 @@
 ---
-type: script
-status:
-  - "[[Active]]"
-brand:
-platform:
-content-pillar:
-hook:
-cta:
-created:
-  "{ date }":
-related: []
+categories:
+  - "[[Script]]"
 ---
 # shorts - ai maximalist
 *08 Jul, 2025*

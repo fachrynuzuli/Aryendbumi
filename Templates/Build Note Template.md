@@ -1,17 +1,18 @@
 ---
-type: build
-brand: 
-build-date: {{date}}
+type: "[[Builds]]"
+brand:
+created:
+  "{ date }":
 tools-used: []
-build-time: 
-demo-url: 
-github-url: 
-status: working
+build-time:
+demo-url:
+github-url:
+status:
+  - "[[Active]]"
 monetized: no
 related: []
 ---
-
-# [Build Name]
+# {{Title}}
 
 ## What It Does
 

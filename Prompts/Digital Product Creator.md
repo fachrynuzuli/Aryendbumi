@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Digital Product Creator**
 
 ## **System Role**

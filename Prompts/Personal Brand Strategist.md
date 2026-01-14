@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Personal Brand Strategist**
 
 ## **System Role**

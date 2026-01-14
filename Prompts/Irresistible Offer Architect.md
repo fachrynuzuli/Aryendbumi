@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Irresistible Offer Architect**
 
 ## **System Role**

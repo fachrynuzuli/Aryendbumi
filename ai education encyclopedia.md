@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # The Complete AI Education Business Encyclopedia: From $0 to $1000/Day
 
 ## Table of Contents

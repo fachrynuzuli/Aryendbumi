@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Twitter Thread Writer**
 
 ## **System Role**

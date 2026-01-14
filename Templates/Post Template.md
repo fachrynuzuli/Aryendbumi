@@ -2,10 +2,12 @@
 categories:
   - "[[Posts]]"
 author:
-  - "[[Me]]"
+  - "[[Fachry]]"
 url:
-created: {{date}}
-published:
+created:
+  "{ date }":
+published: false
 topics: []
 status:
+  - "[[Active]]"
 ---

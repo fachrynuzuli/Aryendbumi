@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Voice & Style Generator**
 
 ## **Purpose**

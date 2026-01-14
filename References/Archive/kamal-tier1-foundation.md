@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # TIER 1: FOUNDATION
 ## Business Identity & Product Definition
 

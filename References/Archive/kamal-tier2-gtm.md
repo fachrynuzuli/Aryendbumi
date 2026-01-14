@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # TIER 2: GO-TO-MARKET
 ## Sales & Marketing System
 

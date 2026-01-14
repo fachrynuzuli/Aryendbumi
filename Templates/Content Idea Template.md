@@ -1,5 +1,5 @@
 ---
-type: content-idea
+type: "[[Contents]]"
 status:
   - "[[Idea]]"
 brand:

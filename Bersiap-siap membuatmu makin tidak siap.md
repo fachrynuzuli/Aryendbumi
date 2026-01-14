@@ -1,16 +1,6 @@
 ---
-type: essay
-status:
-  - "[[Published]]"
-brand: kamal
-created: 2024-08-18
-tags:
-  - mindset
-  - career
-  - preparation
-content-pillar: career-growth
-related:
-  - - Unified Strategy 2026
+categories:
+  - "[[Posts]]"
 ---
 18 Aug, 2024 21:50
 # Bersiap-siap membuatmu makin tidak siap

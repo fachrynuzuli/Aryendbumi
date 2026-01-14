@@ -14,7 +14,7 @@
     "table-border"
   ],
   "showViewHeader": true,
-  "textFontFamily": "Inter,Geist,JetBrains Mono",
+  "textFontFamily": "Inter,Geist",
   "interfaceFontFamily": "Geist,Inter,Geist Mono",
   "monospaceFontFamily": "Geist Mono,Fira Code",
   "baseFontSizeAction": false,

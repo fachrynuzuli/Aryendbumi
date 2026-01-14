@@ -2,13 +2,13 @@
 categories:
   - "[[Posts]]"
 author:
-  - "[[Me]]"
+  - "[[Fachry]]"
 url:
 created: 2026-01-13
-published:
+published: false
 topics: []
 status:
-  - "[[Active]]"
+  - "[[Idea]]"
 ---
 Seneca once said "The abundance of books is distraction."
 

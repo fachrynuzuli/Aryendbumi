@@ -2,4 +2,4 @@
 tags:
   - categories
 ---
-![[Meetings.base]]
+![[Prompts.base]]

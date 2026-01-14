@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Recreate YouTube Video In Your Voice**
 
 ## **System Role**

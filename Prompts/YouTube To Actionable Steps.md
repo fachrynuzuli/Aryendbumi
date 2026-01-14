@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **YouTube To Actionable Steps**
 
 ## **System Role**

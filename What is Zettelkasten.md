@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Posts]]"
+---
 ## How does this work?
 
 Regardless of the app you are using, you really only need 3 folders to start with a zettelkasten. Main notes, index and source notes. No templates, advanced configurations, metadata or tags. It does not need to be any more complicated than this when starting out.

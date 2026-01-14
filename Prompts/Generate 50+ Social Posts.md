@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Generate 50+ Social Posts**
 
 ## **System Role**

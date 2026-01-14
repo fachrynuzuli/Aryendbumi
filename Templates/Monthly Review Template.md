@@ -1,7 +1,8 @@
 ---
 type: review
-brand: both
-created: {{date}}
+brand:
+created:
+  "{ date }":
 ---
 
 # Monthly Review - [Month Year]

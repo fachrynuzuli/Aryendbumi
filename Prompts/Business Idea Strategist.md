@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Business Idea Strategist**
 
 ## **System Role**

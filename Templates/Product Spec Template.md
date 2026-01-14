@@ -1,5 +1,5 @@
 ---
-type: product-spec
+type:
 status:
   - "[[Idea]]"
 brand:
@@ -10,6 +10,8 @@ price:
 created:
   "{ date }":
 related: []
+tags:
+  - products/spec
 ---
 
 # [Product Name]

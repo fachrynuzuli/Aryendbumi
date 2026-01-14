@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Creative Thought Partner**
 
 ## **System Role**

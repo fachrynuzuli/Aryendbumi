@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Landing Page Copywriter**
 
 ## **System Role**

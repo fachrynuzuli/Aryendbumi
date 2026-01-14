@@ -1,17 +1,17 @@
 ---
-created: 2026-01-13
-tags:
-  - excerpt
 categories:
+  - "[[Posts]]"
 author:
-  - "[[Me]]"
+  - "[[Fachry]]"
 url:
-published:
-topics: []
+created: 2026-01-13
+published: false
+topics:
+  - "[[Polymath]]"
 status:
-  - "[[Active]]"
+  - "[[Idea]]"
 ---
-# Synthesizer Quotebook
+# Synthesizer a.k.a Polymath
 
 ___
 

@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **YouTube, Newsletter, or Article Draft**
 
 ## **System Role**

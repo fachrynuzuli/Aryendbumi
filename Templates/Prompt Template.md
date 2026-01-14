@@ -4,8 +4,8 @@ categories:
 maker:
 area:
 ---
+{{Title}}
+
+```prompts
+[Paste key prompts]
 ```
-
-```
-
-

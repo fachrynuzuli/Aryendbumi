@@ -1,13 +1,14 @@
 ---
+categories: "[[Posts]]"
 status:
   - "[[Published]]"
-brand: fachry
+brand:
 created: 2024-07-19
 tags:
   - self-sculpting
   - strategy
-content-pillar: systems-thinking
-categories: mini-essay
+author:
+  - "[[Fachry]]"
 ---
 [Original date: 19 Jul, 2024 12:16]
 

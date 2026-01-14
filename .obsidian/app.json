@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "_meta/Attachments",
+  "attachmentFolderPath": "Attachments",
   "mobileToolbarCommands": [
     "editor:toggle-keyboard",
     "editor:insert-wikilink",
@@ -27,9 +27,11 @@
   ],
   "showInlineTitle": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Inbox",
+  "newFileFolderPath": "/",
   "alwaysUpdateLinks": true,
   "mobilePullAction": "switcher:open",
   "defaultViewMode": "source",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "openBehavior": "",
+  "showUnsupportedFiles": true
 }

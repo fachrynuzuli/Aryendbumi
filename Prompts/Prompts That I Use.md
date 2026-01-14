@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **PROMPTS THAT I USE ALL THE TIME**
 
 ## Prompt 1: Generate a Technical Design Document Generator for AI/LLM Projects

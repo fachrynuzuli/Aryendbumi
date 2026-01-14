@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # TIER 3: EXECUTION
 ## Tactical Playbook & Operations
 

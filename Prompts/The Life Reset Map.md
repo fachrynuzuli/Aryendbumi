@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **The Life Reset Map**
 
 ## **System Role**

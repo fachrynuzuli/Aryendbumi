@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # Context-as-a-Service Platform - Product Requirements Document
 
 ## Executive Summary

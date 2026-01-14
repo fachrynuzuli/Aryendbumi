@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Expert Content Summarizer**
 
 ## **System Role**

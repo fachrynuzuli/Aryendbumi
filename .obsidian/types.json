@@ -14,6 +14,7 @@
     "deadline": "date",
     "date_published": "date",
     "type": "text",
-    "rating": "text"
+    "rating": "text",
+    "build-date": "datetime"
   }
 }

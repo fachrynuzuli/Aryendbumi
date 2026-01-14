@@ -1,15 +1,17 @@
 ---
-type: essay
-status:
-  - "[[Idea]]"
-brand: fachry
+categories:
+  - "[[Posts]]"
+author:
+  - "[[Fachry]]"
+url:
 created: 2024-07-31
+published: false
+topics: []
+status:
+  - "[[Active]]"
 tags:
   - habit-formation
   - build-in-public
-content-pillar: systems-thinking
-related:
-  - - [[Unified Strategy 2026]]
 ---
 # Beginners Seeks Guidance
 
@@ -43,6 +45,3 @@ related:
 > - It's too hard, I don't know how to do it
 > - It's a high learning curve
 > - I need more guide
-
-> [!danger] References
-> - [[Orang Sukses Ga Minta Nasihat]]

@@ -1,13 +1,15 @@
 ---
 status:
   - "[[Idea]]"
-brand: fachry
+brand:
 created: 2026-01-13
 tags:
   - mindset
   - growth
 content-pillar: career-growth
-categories: content-idea
+categories: "[[Posts]]"
+author:
+  - "[[Fachry]]"
 ---
 19 Aug, 2024 04:36
 

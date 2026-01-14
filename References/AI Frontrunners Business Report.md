@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # Comprehensive Business Report: AI Frontrunners Platform
 
 ## Executive Summary

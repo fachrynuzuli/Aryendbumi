@@ -1,16 +1,15 @@
 ---
-categories: mini-essay
+categories: "[[Posts]]"
 status:
   - "[[Published]]"
-brand: fachry
+brand:
 created: 2024-09-05
 tags:
   - growth
   - mindset
   - progress
-content-pillar: systems-thinking
-related:
-  - - - - Unified Strategy 2026
+author:
+  - "[[Fachry]]"
 ---
 [Original date: 05 Sep, 2024]
 # you've come a long way 

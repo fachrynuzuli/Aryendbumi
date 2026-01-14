@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Artifacts]]"
+---
 # TIER 4: EXPERIENCE
 ## Gamification Layer (Optional but Powerful)
 

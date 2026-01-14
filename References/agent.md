@@ -1,34 +1,34 @@
-# AI Agent File Management Specifications
+# Obsidian Vault Operations Manual
+## AI Agent File Management Specifications
 
 **Purpose:** Technical specifications for managing files, properties, links, and templates in Fachry's dual-brand knowledge vault.
 
-**Scope:** This document contains ONLY operational rules. For strategic decisions, check `References/README.md` and `Unified Strategy 2026.md`.
+**Scope:** This document contains ONLY operational rules. For strategic decisions, check README.md and strategy documents.
 
 ---
 
 ## FOLDER STRUCTURE
 
 ```
-vault/
-├── /                        # Vault root - Fachry's original work lives here
-├── References/              # External entities (tools, people, frameworks)
-├── Clippings/              # Saved content from others
-├── Builds/                 # Completed apps/projects
-├── Daily/                  # Date anchors (YYYY-MM-DD.md)
-├── Attachments/           # Media files
-├── Templates/             # Templates only
-└── Bases/                 # Obsidian plugin data (.base files)
+Aryendbumi/
+├── /                     # Vault root - Fachry's original work lives here
+├── Attachments/          # Media files
+├── Bases/                # Obsidian plugin data (.base files)
+├── Profiles/             # Context profile to feed AI LLM upon prompting
+├── Prompts/              # Collection of top tier AI LLM prompt
+├── References/           # External entities (tools, people, frameworks)
+└── Templates/            # Templates only
+
+subfolder:
+Aryendbumi/References/Archive    # files that no longer needed
 ```
 
-**NOTE:** Original content goes directly in the vault root (`/`), NOT in a folder called "Root/".
-
 **RULES:**
-- NO subfolders allowed in any folder
+- NO subfolders allowed in any folder other than `Archive/`
 - NO nested hierarchies
 - Flat structure only
 - Use properties for categorization
-- **EXCEPTION:** `Bases/` folder is allowed for Obsidian plugin compatibility
-
+- **EXCEPTION:** `Attachments/`, `Bases/` and `Templates/` folder are allowed for Obsidian plugin compatibility and `Profiles/` and `Prompts/` are necessary for AI agent to crawl into the vault/repository
 ---
 
 ## FILE PLACEMENT ALGORITHM
@@ -50,7 +50,7 @@ INPUT: New note to create
 │ │        Add build properties                            │
 │ │        Add to Daily note                               │
 │ │                                                         │
-│ └─ NO  → Place in vault root (/)                         │
+│ └─ NO  → Place in Root/                                  │
 │          Add content properties                          │
 │          Add to Daily note                               │
 └───────────────────────────────────────────────────────────┘
@@ -68,18 +68,10 @@ INPUT: New note to create
 │ ├─ YES → Place in Clippings/                             │
 │ │        Add research properties                         │
 │ │                                                         │
-│ └─ NO  → STEP 5: Specialized Content                     │
+│ └─ NO  → STEP 5: ERROR HANDLING                          │
 └───────────────────────────────────────────────────────────┘
 
-┌─ STEP 5: Specialized Content ────────────────────────────┐
-│ Q: "Is this a Prompt or a Profile?"                       │
-│ ├─ YES → Place in References/                            │
-│ │        Add reference properties                        │
-│ │                                                         │
-│ └─ NO  → STEP 6: ERROR HANDLING                          │
-└───────────────────────────────────────────────────────────┘
-
-┌─ STEP 6: Error Handling ─────────────────────────────────┐
+┌─ STEP 5: Error Handling ─────────────────────────────────┐
 │ → STOP                                                    │
 │ → ASK: "Is this YOUR work, an EXTERNAL reference,        │
 │         or SAVED content from others?"                    │
@@ -87,7 +79,7 @@ INPUT: New note to create
 │ → NEVER guess folder placement                           │
 └───────────────────────────────────────────────────────────┘
 
-┌─ STEP 7: Validation ─────────────────────────────────────┐
+┌─ STEP 6: Validation ─────────────────────────────────────┐
 │ BEFORE creating file, verify:                            │
 │ ✓ Folder placement correct per decision tree?            │
 │ ✓ Properties block complete for note type?               │
@@ -103,9 +95,9 @@ INPUT: New note to create
 
 ## FILENAME CONVENTIONS
 
-**Vault root files:**
+**Root/ files:**
 ```
-Format: [Optional: YYYY-MM-DD HHMM] Title with spaces.md
+Format: [Optional: YYYY-MM-DD HHMM] Title with hyphens.md
 
 Examples:
 ✅ 2025-01-15 1045 AI agent file management idea.md
@@ -114,7 +106,7 @@ Examples:
 ✅ Invoice generator product spec.md
 
 ❌ Week 1/Script.md (no folders)
-❌ kamal_way_script.md (use spaces not underscores)
+❌ kamal_way_script.md (use hyphens not underscores)
 ❌ script-v2-final-FINAL.md (no version numbers)
 ```
 
@@ -193,22 +185,17 @@ Examples:
 ```yaml
 ---
 type: [required - from allowed types]
-status:
-  - "[[Required Status]]"
-brand: [required for content/products - kamal/freebuilder/fachry]
-created: 
-  "{ date }":
-tags:
-  - [tag1]
-  - [tag2]
-related:
-  - - [[Note Link]]
+status: [required - from allowed statuses]
+brand: [required for content/products - kamal/freebuilder/both]
+created: YYYY-MM-DD [required]
+tags: [] [optional]
+related: [] [required - even if empty]
 ---
 ```
 
 **Allowed `type` values:**
 - `content-idea` - Idea for video/post/article
-- `script` - Video or podcast scripts (Long/Short form)
+- `script` - Video script
 - `caption` - Social media caption
 - `product-spec` - Product specification
 - `product-idea` - Product idea
@@ -216,27 +203,27 @@ related:
 - `research` - Research note
 - `clipping` - Saved article/video
 - `reference` - External entity note
-- `essay` - Long-form writing (Articles/Essays)
-- `prompt` - AI system instructions or persona prompts
-- `profile` - Detailed entity descriptions (Person/Brand/ICP)
+- `essay` - Long-form writing
 - `daily` - Daily note
 - `review` - Monthly/weekly review
 
-**Allowed `status` values (Must be wikilinked):**
-- `[[Idea]]` - Initial capture
-- `[[Active]]` - In progress
-- `[[Published]]` - Live/shipped
-- `[[Archived]]` - No longer active
-- `[[Validating]]` - Testing demand
-- `[[Building]]` - In development
-- `[[Launched]]` - Product live
-- `[[Working]]` - App functional
-- `[[Broken]]` - App needs fixing
+**Allowed `status` values:**
+- `idea` - Initial capture
+- `drafting` - In progress
+- `scripting` - Script being written
+- `ready` - Ready to film/publish
+- `published` - Live/shipped
+- `archived` - No longer active
+- `validating` - Testing demand
+- `building` - In development
+- `launched` - Product live
+- `working` - App functional
+- `broken` - App needs fixing
 
 **Allowed `brand` values:**
-- `kamal` - The Kamal Way content/product (Career/Systems)
-- `freebuilder` - Freebuilder content/product (Building/AI Tools)
-- `fachry` - Unified Personal Brand (The Hybrid Leader)
+- `kamal` - The Kamal Way content/product
+- `freebuilder` - Freebuilder content/product
+- `both` - Serves both brands
 
 ### Content Production Properties
 
@@ -256,7 +243,7 @@ related: []
 ```
 
 **When to use:**
-- Vault root files that are video scripts, captions, or content ideas
+- Root/ files that are video scripts, captions, or content ideas
 - Any content meant for publishing
 
 **Example:**
@@ -293,7 +280,7 @@ related: []
 ```
 
 **When to use:**
-- Vault root files for product specs or ideas
+- Root/ files for product specs or ideas
 - NOT for builds (they use build properties)
 
 **Example:**
@@ -330,7 +317,7 @@ related: []
 
 **When to use:**
 - Clippings/ files (saved articles, videos)
-- Vault root files that are research synthesis
+- Root/ files that are research synthesis
 
 **Example:**
 ```yaml
@@ -1057,8 +1044,8 @@ PRIORITY ORDER:
 6. Confirm completion
 
 IF ERROR → Reference this document
-IF STRATEGIC → Reference `Unified Strategy 2026.md`
-IF BUSINESS → Reference `Unified Strategy 2026.md`
+IF STRATEGIC → Reference README.md
+IF BUSINESS → Reference strategy docs
 
 ALL file operations MUST follow these specifications.
 NO EXCEPTIONS.

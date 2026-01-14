@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Persuasive Ads, Emails, & Scripts**
 
 ## **System Role**

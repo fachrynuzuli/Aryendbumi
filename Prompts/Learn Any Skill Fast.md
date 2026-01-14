@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Learn Any Skill Fast**
 
 ## **System Role**

@@ -1,3 +1,7 @@
+---
+categories:
+  - "[[Prompts]]"
+---
 # **Customer Avatar Generator**
 
 ## **System Role**

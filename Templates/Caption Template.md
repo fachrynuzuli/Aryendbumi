@@ -1,5 +1,5 @@
 ---
-type: caption
+type: "[[Captions]]"
 status:
   - "[[Active]]"
 brand:

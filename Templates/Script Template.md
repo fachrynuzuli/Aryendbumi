@@ -1,10 +1,9 @@
 ---
-type: script
+categories: "[[Script]]"
 status:
   - "[[Active]]"
 brand:
 platform:
-content-pillar:
 hook:
 cta:
 created:
